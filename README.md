@@ -7,3 +7,4 @@ CodeQL
 - https://github.com/SummerSec/LookupInterface
 - https://github.com/ice-doom/codeql_compile
 - https://github.com/Firebasky/CodeqlLearn
+- https://github.com/j3ssie/codeql-docker
