@@ -8,3 +8,5 @@ CodeQL
 - https://github.com/ice-doom/codeql_compile
 - https://github.com/Firebasky/CodeqlLearn
 - https://github.com/j3ssie/codeql-docker
+- https://github.com/github/codeql-go
+- https://github.com/Firebasky/CodeqlLearn
