@@ -10,3 +10,4 @@ CodeQL
 - https://github.com/j3ssie/codeql-docker
 - https://github.com/github/codeql-go
 - https://github.com/Firebasky/CodeqlLearn
+- https://tttang.com/archive/1415
