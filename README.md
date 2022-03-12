@@ -24,6 +24,7 @@
 - https://tttang.com/archive/1415
 - https://github.com/advanced-security/codeql-queries
 - https://www.anquanke.com/post/id/203674
+- https://www.anquanke.com/post/id/266823
 
 ## 02-CodeQL基础内容
 
