@@ -101,15 +101,11 @@
 - https://github.com/chaimu100/java-test-for-codeql
 
 二、C#安全分析
-
 - https://lgtm.com/search?q=language%3Acsharp&t=projects
 
 三、Golang安全分析
-
 - https://lgtm.com/search?q=language%3Ago&t=projects
-
 - https://codeql.github.com/codeql-standard-libraries/go
-
 - https://github.com/github/codeql-ctf-go-return
 - https://github.com/gagliardetto/codemill
 - http://f4bb1t.com/post/2020/12/16/codeql-for-golang-practise3
@@ -145,14 +141,12 @@
 ## 05-CodeQL使用案例
 
 一、大型应用分析
-
 - 分析Shiro
   - https://www.anquanke.com/post/id/256967
 - 分析Fastjson
   - https://www.buaq.net/go-98696.html
   - https://xz.aliyun.com/t/7482
 - 分析Log4j
-
 - https://github.com/github/codeql-dubbo-workshop
 - https://www.anquanke.com/post/id/255721
 - https://mp.weixin.qq.com/s/B-uhbd5FApxSXnjPEFzArQ
