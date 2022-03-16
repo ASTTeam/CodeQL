@@ -29,7 +29,7 @@
 - [ ] [《深入理解CodeQL》](https://github.com/ASTTeam/CodeQL)@0e0w
 - [x] [《Codeql学习笔记》](https://github.com/safe6Sec/CodeqlNote)@safe6Sec
 - [x] [《记录学习codeql的过程》](https://github.com/Firebasky/CodeqlLearn)@Firebasky
-- [ ] [《CodeQL Java 全网最全的中文学习资料》](https://github.com/SummerSec/learning-codeql)@SummerSec
+- [x] [《CodeQL Java 全网最全的中文学习资料》](https://github.com/SummerSec/learning-codeql)@SummerSec
 - [ ] [《代码分析平台CodeQL学习手记》](https://www.4hou.com/posts/o6wX)@fanyeee
 - [ ] [《静态分析☞CodeQL/Soot/SAST》](https://github.com/pen4uin/static-analysis)@pen4uin
 - [ ] [《Finding security vulnerabilities with CodeQL》](https://github.com/githubsatelliteworkshops/codeql)@GitHub Satellite Workshops
@@ -82,6 +82,13 @@
 - [ ] https://www.cnblogs.com/goodhacker/p/13583650.html
 - [ ] https://yourbutterfly.github.io/note-site/module/semmle-ql/codeql
 - [ ] https://fynch3r.github.io/tags/CodeQL
+- [ ] https://github.com/pwntester/codeql-cs-template
+- [ ] https://github.com/ghas-bootcamp/ghas-bootcamp
+- [ ] https://github.com/zbazztian/codeql-inject
+- [ ] https://github.com/zbazztian/codeql-tools
+- [ ] https://github.com/JLLeitschuh/lgtm_hack_scripts
+- [ ] https://github.com/silentsignal/jms-codeql
+- [ ] https://github.com/Marcono1234/codeql-jdk-docker
 
 ## 02-CodeQL基础内容
 
@@ -89,12 +96,12 @@
 
 - AST、source、sink、
 - CodeQL的处理对象并不是源码本身，而是中间生成的AST结构数据库，所以我们先需要把我们的项目源码转换成CodeQL能够识别的CodeDatabase。
-- 1、创建数据库。2、对数据库进行查找
+- 1、创建数据库。2、对数据库进行查找。3、分析查询结果发现漏洞
 - Engine、Database、Queries
 
 一、CodeQL安装
 
-二、QL语言
+二、CodeQL语法
 - https://github.com/semmle/ql
 
 三、CodeQL数据库
@@ -112,23 +119,17 @@
 一、Java安全分析
 
 - https://codeql.github.com/codeql-query-help/java
-
   https://lgtm.com/search?q=language%3Ajava&t=rules
-
 - [ ] https://github.com/msrkp/codeql_for_gadgets
 - [ ] https://github.com/chaimu100/java-test-for-codeql
 
 二、C#安全分析
-
 - https://codeql.github.com/codeql-query-help/csharp/
-
 - [ ] https://lgtm.com/search?q=language%3Acsharp&t=projects
 
 三、Golang安全分析
-
 - https://codeql.github.com/codeql-query-help/go/
 - https://lgtm.com/search?q=language%3Ago&t=rules
-
 - [ ] https://lgtm.com/search?q=language%3Ago&t=projects
 - [ ] https://codeql.github.com/codeql-standard-libraries/go
 - [ ] https://github.com/github/codeql-ctf-go-return
@@ -137,9 +138,7 @@
 - [ ] https://www.freebuf.com/articles/web/253491.html
 
 四、Python
-
 - https://codeql.github.com/codeql-query-help/python/
-
 - [ ] https://github.com/10thmagnitude/custom-codeql-python
 - [ ] https://github.com/AlexAltea/codeql-python
 
@@ -154,11 +153,9 @@
 ## 04-CodeQL规则工具
 
 一、CodeQL规则
-
 - Java
 - C#
 - Go
-
 - [ ] [《My CodeQL queries collection》](https://github.com/cldrn/codeql-queries)@cldrn
 - [ ] https://github.com/cor0ps/codeql
 - [ ] https://github.com/GeekMasher/security-queries
@@ -195,7 +192,6 @@
   - [用codeql分析grafana最新任意文件读取](https://github.com/safe6Sec/codeql-grafana)
 
 二、代码审计案例
-
 - https://www.anquanke.com/post/id/203674
 - https://www.jianshu.com/p/99942852a3aa
 - https://www.anquanke.com/post/id/202987
