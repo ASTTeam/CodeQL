@@ -1,6 +1,6 @@
 # 《深入理解CodeQL》
 
-本项目用来收集整理CodeQL相关的内容，包括CodeQL的设计原理实现方法以及使用CodeQL进行漏洞挖掘的案例等。CodeQL在SAST领域将会是一把利剑，被誉为下一代的代码审计工具。低级0day挖掘工程师可以借助CodeQL利用已知的漏洞来挖掘类似的漏洞。本人开始持续学习CodeQL，持续用其进行漏洞挖掘。作者：[0e0w](https://github.com/0e0w)
+本项目用来收集整理CodeQL相关的内容，包括CodeQL的设计原理实现方法以及使用CodeQL进行的漏洞挖掘案例等。CodeQL在SAST领域将会是一把利剑，CodeQL是下一代的代码审计工具。低级0day挖掘工程师可以借助CodeQL利用已知的漏洞来挖掘类似的漏洞。本人开始学习CodeQL，持续用其进行漏洞挖掘。作者：[0e0w](https://github.com/0e0w)
 
 本项目创建于2021年12月13日，最近的一次更新时间为2022年3月16日。
 
@@ -30,8 +30,8 @@
 - [x] [《Codeql学习笔记》](https://github.com/safe6Sec/CodeqlNote)@safe6Sec
 - [x] [《记录学习codeql的过程》](https://github.com/Firebasky/CodeqlLearn)@Firebasky
 - [x] [《CodeQL Java 全网最全的中文学习资料》](https://github.com/SummerSec/learning-codeql)@SummerSec
-- [ ] [《代码分析平台CodeQL学习手记》](https://www.4hou.com/posts/o6wX)@fanyeee
 - [ ] [《静态分析☞CodeQL/Soot/SAST》](https://github.com/pen4uin/static-analysis)@pen4uin
+- [ ] [《代码分析平台CodeQL学习手记》](https://www.4hou.com/posts/o6wX)@fanyeee
 - [ ] [《Finding security vulnerabilities with CodeQL》](https://github.com/githubsatelliteworkshops/codeql)@GitHub Satellite Workshops
 - [ ] https://github.com/pwntester/codeql_grehack_workshop
 - [ ] https://github.com/johnjohncom/webinar-2021sep-codeql2
@@ -105,9 +105,7 @@
 - https://github.com/semmle/ql
 
 三、CodeQL数据库
-
 - 生成数据库之前，需要先保证被分析程序可以正常跑起来。
-
 - 创建数据库
   - codeql database create java-db --language=java
   - codeql database create java-db --language=java --command='mvn clean install'
@@ -117,9 +115,8 @@
 ## 03-CodeQL高级进阶
 
 一、Java安全分析
-
 - https://codeql.github.com/codeql-query-help/java
-  https://lgtm.com/search?q=language%3Ajava&t=rules
+- https://lgtm.com/search?q=language%3Ajava&t=rules
 - [ ] https://github.com/msrkp/codeql_for_gadgets
 - [ ] https://github.com/chaimu100/java-test-for-codeql
 
@@ -190,8 +187,13 @@
   - https://xz.aliyun.com/t/8240
 - 分析grafana
   - [用codeql分析grafana最新任意文件读取](https://github.com/safe6Sec/codeql-grafana)
+- 分析Hadoop
+  - https://mp.weixin.qq.com/s/CyhWw4t8LdGhCpixacb6Xg
+- 分析Struts2
+  - https://www.anquanke.com/post/id/157583
 
 二、代码审计案例
+
 - https://www.anquanke.com/post/id/203674
 - https://www.jianshu.com/p/99942852a3aa
 - https://www.anquanke.com/post/id/202987
