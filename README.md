@@ -1,6 +1,6 @@
 # 《深入理解CodeQL》
 
-本项目用来收集整理CodeQL相关的内容，包括CodeQL的设计原理实现方法以及使用CodeQL进行的漏洞挖掘案例等。CodeQL在SAST领域将会是一把利剑，CodeQL是下一代的代码审计工具。低级0day挖掘工程师可以借助CodeQL利用已知的漏洞来挖掘类似的漏洞。本人开始学习CodeQL，持续用其进行漏洞挖掘。作者：[0e0w](https://github.com/0e0w)
+本项目用来收集整理CodeQL相关的内容，包括CodeQL的设计原理实现方法以及使用CodeQL进行的漏洞挖掘案例等。CodeQL基于语义的代码分析思想在SAST领域将会是一把利剑，CodeQL是下一代代码审计工具。可以通过CodeQL利用已知的漏洞信息来挖掘类似的漏洞，就像处理数据一样处理代码。本人开始学习CodeQL，持续用其进行漏洞挖掘。作者：[0e0w](https://github.com/0e0w)
 
 本项目创建于2021年12月13日，最近的一次更新时间为2022年3月16日。
 
@@ -14,13 +14,13 @@
 ## 01-CodeQL技术资源
 
 一、官方资源
+- [ ] https://codeql.github.com/docs
 - [ ] https://github.com/github/codeql
 - [ ] https://github.com/github/codeql-go
 - [ ] https://github.com/github/codeql-cli-binaries
 - [ ] https://github.com/github/vscode-codeql-starter
 - [ ] https://github.com/github/codeql-learninglab-actions
 - [ ] https://github.com/github/securitylab
-- [ ] https://codeql.github.com/docs
 - [ ] https://lgtm.com/help/lgtm/ql/learning-ql
 - [ ] https://lgtm.com
 - [ ] https://codeql.github.com
@@ -30,25 +30,54 @@
 - [x] [《Codeql学习笔记》](https://github.com/safe6Sec/CodeqlNote)@safe6Sec
 - [x] [《记录学习codeql的过程》](https://github.com/Firebasky/CodeqlLearn)@Firebasky
 - [x] [《CodeQL Java 全网最全的中文学习资料》](https://github.com/SummerSec/learning-codeql)@SummerSec
+- [x] [《代码分析平台CodeQL学习手记》](https://www.4hou.com/posts/o6wX)@fanyeee
 - [ ] [《静态分析☞CodeQL/Soot/SAST》](https://github.com/pen4uin/static-analysis)@pen4uin
-- [ ] [《代码分析平台CodeQL学习手记》](https://www.4hou.com/posts/o6wX)@fanyeee
-- [ ] [《Finding security vulnerabilities with CodeQL》](https://github.com/githubsatelliteworkshops/codeql)@GitHub Satellite Workshops
-- [ ] https://github.com/pwntester/codeql_grehack_workshop
+- [x] [《Finding security vulnerabilities with CodeQL》](https://github.com/githubsatelliteworkshops/codeql)@GitHub Satellite Workshops
 - [ ] https://github.com/johnjohncom/webinar-2021sep-codeql2
 - [ ] https://github.com/githubsatelliteworkshops/codeql-cpp
+- [ ] https://github.com/pwntester/codeql_grehack_workshop
 - [ ] https://github.com/haby0/sec-note
 - [ ] [《CodeQL 寻找 JNDI利用 Lookup接口》](https://github.com/SummerSec/LookupInterface)@SummerSec
 - [ ] ~~[《CodeQL中文入门教程》](https://github.com/Cl0udG0d/codeqlCnLearn)@Cl0udG0d~~
 - [ ] https://github.com/haby0/mark
 
-三、其他资源
+三、视频资源
+- [ ] [《CodeQL合集》](https://www.bilibili.com/video/BV1TL411L7ha)
+- [ ] [《使用 CodeQL 挖掘 Java 应用漏洞》](https://www.bilibili.com/video/BV153411r7HW)
+
+四、其他资源
+- 先知
+- [ ] https://xz.aliyun.com/search?keyword=Codeql
+- [ ] https://xz.aliyun.com/t/7789
+- 跳跳糖
 - [ ] https://tttang.com/archive/1322
 - [ ] https://tttang.com/archive/1353
 - [ ] https://tttang.com/archive/1415
+- 安全客
 - [ ] https://www.anquanke.com/post/id/266823
 - [ ] https://www.anquanke.com/post/id/157583
 - [ ] https://www.anquanke.com/post/id/212305
-- [ ] https://xz.aliyun.com/search?keyword=Codeql
+- 知乎
+- [ ] https://zhuanlan.zhihu.com/p/354275826
+- 微信
+- [ ] https://mp.weixin.qq.com/s/jVZ3Op8FYBmiFAV3p0li3w
+- [ ] https://mp.weixin.qq.com/s/KQso2nvWx737smunUHwXag
+- [ ] https://mp.weixin.qq.com/s/sAUSgRAohFlmzwSkkWjp9Q
+- [ ] https://mp.weixin.qq.com/s/3mlRedFwPz31Rwe7VDBAuA
+- [ ] https://mp.weixin.qq.com/s/zSI157qJXYivSvyxHzXALQ
+- [ ] https://mp.weixin.qq.com/s/Rqo12z9mapwlj6wGHZ1zZA
+- Freebuf
+- Githab
+- [ ] https://github.com/Semmle/SecurityQueries
+- [ ] https://github.com/artem-smotrakov/ql-fun
+- [ ] https://github.com/s0/language-ql
+- [ ] https://github.com/pwntester/codeql-cs-template
+- [ ] https://github.com/ghas-bootcamp/ghas-bootcamp
+- [ ] https://github.com/zbazztian/codeql-inject
+- [ ] https://github.com/zbazztian/codeql-tools
+- [ ] https://github.com/JLLeitschuh/lgtm_hack_scripts
+- [ ] https://github.com/silentsignal/jms-codeql
+- [ ] https://github.com/Marcono1234/codeql-jdk-docker
 - [ ] https://github.com/j3ssie/codeql-docker
 - [ ] https://github.com/microsoft/codeql-container
 - [ ] https://github.com/zbazztian/codeql-debug
@@ -60,35 +89,19 @@
 - [ ] https://github.com/advanced-security/codeql-basics
 - [ ] https://github.com/vchekan/CodeQL
 - [ ] https://github.com/ThibaudLopez/GHAS
+- Medium
+- 其他博客
 - [ ] https://bestwing.me/codeql.html
 - [ ] https://lfysec.top/2020/06/03/CodeQL%E7%AC%94%E8%AE%B0/
 - [ ] https://docs.microsoft.com/zh-cn/windows-hardware/drivers/devtest/static-tools-and-codeql
 - [ ] https://codeantenna.com/a/fnmZS3Qg4F
 - [ ] https://www.cnblogs.com/goodhacker/p/
 - [ ] https://geekmasher.dev/posts/sast/codeql-introduction
-- [ ] https://mp.weixin.qq.com/s/jVZ3Op8FYBmiFAV3p0li3w
-- [ ] https://mp.weixin.qq.com/s/KQso2nvWx737smunUHwXag
-- [ ] https://mp.weixin.qq.com/s/sAUSgRAohFlmzwSkkWjp9Q
-- [ ] https://mp.weixin.qq.com/s/3mlRedFwPz31Rwe7VDBAuA
-- [ ] https://mp.weixin.qq.com/s/zSI157qJXYivSvyxHzXALQ
-- [ ] https://blog.ycdxsb.cn/categories/research/codeql
-- [ ] https://xz.aliyun.com/t/7789
-- [ ] https://github.com/Semmle/SecurityQueries
-- [ ] https://github.com/artem-smotrakov/ql-fun
-- [ ] https://github.com/s0/language-ql
-- [ ] https://zhuanlan.zhihu.com/p/354275826
-- [ ] https://mp.weixin.qq.com/s/Rqo12z9mapwlj6wGHZ1zZA
 - [ ] http://blog.gamous.cn/post/codeql
 - [ ] https://www.cnblogs.com/goodhacker/p/13583650.html
 - [ ] https://yourbutterfly.github.io/note-site/module/semmle-ql/codeql
 - [ ] https://fynch3r.github.io/tags/CodeQL
-- [ ] https://github.com/pwntester/codeql-cs-template
-- [ ] https://github.com/ghas-bootcamp/ghas-bootcamp
-- [ ] https://github.com/zbazztian/codeql-inject
-- [ ] https://github.com/zbazztian/codeql-tools
-- [ ] https://github.com/JLLeitschuh/lgtm_hack_scripts
-- [ ] https://github.com/silentsignal/jms-codeql
-- [ ] https://github.com/Marcono1234/codeql-jdk-docker
+- [ ] https://blog.ycdxsb.cn/categories/research/codeql
 
 ## 02-CodeQL基础内容
 
@@ -98,6 +111,8 @@
 - CodeQL的处理对象并不是源码本身，而是中间生成的AST结构数据库，所以我们先需要把我们的项目源码转换成CodeQL能够识别的CodeDatabase。
 - 1、创建数据库。2、对数据库进行查找。3、分析查询结果发现漏洞
 - Engine、Database、Queries
+- AutoBuilder、extractor、trap、逻辑谓词、连接词、逻辑连接词、predicate
+- CodeQL的缺点？
 
 一、CodeQL安装
 
@@ -116,6 +131,7 @@
 
 一、Java安全分析
 - https://codeql.github.com/codeql-query-help/java
+- https://codeql.github.com/codeql-standard-libraries/java
 - https://lgtm.com/search?q=language%3Ajava&t=rules
 - [ ] https://github.com/msrkp/codeql_for_gadgets
 - [ ] https://github.com/chaimu100/java-test-for-codeql
@@ -202,5 +218,6 @@
 ## 06-CodeQL参考资源
 
 - https://github.com/ASTTeam/CodeQL
+- https://github.com/pwntester
 
 [![Stargazers over time](https://starchart.cc//ASTTeam/CodeQL.svg)](https://starchart.cc/ASTTeam/CodeQL)
