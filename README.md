@@ -1,6 +1,6 @@
 # 《深入理解CodeQL》
 
-本项目用来收集整理CodeQL相关的内容，包括CodeQL的设计原理实现方法以及使用CodeQL进行的漏洞挖掘案例等。CodeQL基于语义的代码分析思想在SAST领域将会是一把利剑，CodeQL是下一代代码审计工具。可以通过CodeQL利用已知的漏洞信息来挖掘类似的漏洞，就像处理数据一样处理代码。本人开始学习CodeQL，持续用其进行漏洞挖掘。作者：[0e0w](https://github.com/0e0w)
+本项目收集整理CodeQL相关内容，包括CodeQL的设计原理实现方法或使用CodeQL进行的漏洞挖掘案例等。CodeQL基于语义的代码分析思想在SAST领域将会是一把利剑，CodeQL是下一代代码审计工具。可以通过CodeQL利用已知的漏洞信息来挖掘类似的漏洞，就像处理数据一样寻找漏洞。作者：[0e0w](https://github.com/0e0w)
 
 本项目创建于2021年12月13日，最近的一次更新时间为2022年3月16日。
 
@@ -33,13 +33,13 @@
 - [x] [《代码分析平台CodeQL学习手记》](https://www.4hou.com/posts/o6wX)@fanyeee
 - [ ] [《静态分析☞CodeQL/Soot/SAST》](https://github.com/pen4uin/static-analysis)@pen4uin
 - [x] [《Finding security vulnerabilities with CodeQL》](https://github.com/githubsatelliteworkshops/codeql)@GitHub Satellite Workshops
+- [ ] [《CodeQL 寻找 JNDI利用 Lookup接口》](https://github.com/SummerSec/LookupInterface)@SummerSec
+- [ ] ~~[《CodeQL中文入门教程》](https://github.com/Cl0udG0d/codeqlCnLearn)@Cl0udG0d~~
+- [ ] https://github.com/haby0/mark
 - [ ] https://github.com/johnjohncom/webinar-2021sep-codeql2
 - [ ] https://github.com/githubsatelliteworkshops/codeql-cpp
 - [ ] https://github.com/pwntester/codeql_grehack_workshop
 - [ ] https://github.com/haby0/sec-note
-- [ ] [《CodeQL 寻找 JNDI利用 Lookup接口》](https://github.com/SummerSec/LookupInterface)@SummerSec
-- [ ] ~~[《CodeQL中文入门教程》](https://github.com/Cl0udG0d/codeqlCnLearn)@Cl0udG0d~~
-- [ ] https://github.com/haby0/mark
 
 三、视频资源
 - [ ] [《CodeQL合集》](https://www.bilibili.com/video/BV1TL411L7ha)
@@ -102,6 +102,7 @@
 - [ ] https://yourbutterfly.github.io/note-site/module/semmle-ql/codeql
 - [ ] https://fynch3r.github.io/tags/CodeQL
 - [ ] https://blog.ycdxsb.cn/categories/research/codeql
+- [ ] https://cloud.tencent.com/developer/article/1645870
 
 ## 02-CodeQL基础内容
 
@@ -112,7 +113,7 @@
 - 1、创建数据库。2、对数据库进行查找。3、分析查询结果发现漏洞
 - Engine、Database、Queries
 - AutoBuilder、extractor、trap、逻辑谓词、连接词、逻辑连接词、predicate
-- CodeQL的缺点？
+- CodeQL的缺点？不能直接通过打包好的程序进行代码审计。
 
 一、CodeQL安装
 
