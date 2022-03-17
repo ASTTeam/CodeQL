@@ -2,7 +2,7 @@
 
 本项目收集整理CodeQL相关内容，包括CodeQL的设计原理实现方法或使用CodeQL进行的漏洞挖掘案例等。CodeQL基于语义的代码分析思想在SAST领域将会是一把利剑，CodeQL是下一代代码审计工具。可以通过CodeQL利用已知的漏洞信息来挖掘类似的漏洞，就像处理数据一样寻找漏洞。作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2021年12月13日，最近的一次更新时间为2022年3月16日。
+本项目创建于2021年12月13日，最近的一次更新时间为2022年3月17日。
 
 - [01-CodeQL技术资源](https://github.com/ASTTeam/CodeQL#01-codeql%E6%8A%80%E6%9C%AF%E8%B5%84%E6%BA%90)
 - [02-CodeQL基础内容](https://github.com/ASTTeam/CodeQL#02-codeql%E5%9F%BA%E7%A1%80%E5%86%85%E5%AE%B9)
@@ -23,7 +23,6 @@
 - [ ] https://github.com/github/securitylab
 - [ ] https://lgtm.com/help/lgtm/ql/learning-ql
 - [ ] https://lgtm.com
-- [ ] https://codeql.github.com
 
 二、优秀资源
 - [ ] [《深入理解CodeQL》](https://github.com/ASTTeam/CodeQL)@0e0w
@@ -44,8 +43,13 @@
 三、视频资源
 - [ ] [《CodeQL合集》](https://www.bilibili.com/video/BV1TL411L7ha)
 - [ ] [《使用 CodeQL 挖掘 Java 应用漏洞》](https://www.bilibili.com/video/BV153411r7HW)
+- [ ] https://www.youtube.com/watch?v=y_-pIbsr7jc
+- [ ] https://www.youtube.com/watch?v=G_yDbouY0tM
 
-四、其他资源
+四、学术刊物
+- https://codeql.github.com/publications
+
+五、其他资源
 - 先知
 - [ ] https://xz.aliyun.com/search?keyword=Codeql
 - [ ] https://xz.aliyun.com/t/7789
@@ -89,6 +93,8 @@
 - [ ] https://github.com/advanced-security/codeql-basics
 - [ ] https://github.com/vchekan/CodeQL
 - [ ] https://github.com/ThibaudLopez/GHAS
+- [ ] https://github.com/synacktiv/QLinspector
+- [ ] https://github.com/advanced-security/codeql-workshop-2021-learning-journey
 - Medium
 - 其他博客
 - [ ] https://bestwing.me/codeql.html
@@ -103,6 +109,8 @@
 - [ ] https://fynch3r.github.io/tags/CodeQL
 - [ ] https://blog.ycdxsb.cn/categories/research/codeql
 - [ ] https://cloud.tencent.com/developer/article/1645870
+- [ ] https://jorgectf.github.io/blog/post/practical-codeql-introduction
+- [ ] https://www.slideshare.net/shabgrd/semmle-codeql
 
 ## 02-CodeQL基础内容
 
@@ -121,10 +129,18 @@
 - https://github.com/semmle/ql
 
 三、CodeQL数据库
+- https://lgtm.com/help/lgtm/generate-database
 - 生成数据库之前，需要先保证被分析程序可以正常跑起来。
 - 创建数据库
   - codeql database create java-db --language=java
   - codeql database create java-db --language=java --command='mvn clean install'
+  - codeql database create cpp-database --language=cpp --command=make
+  - codeql database create csharp-database --language=csharp --command='dotnet build /t:rebuild
+  - codeql database create csharp-database --language=csharp --command='dotnet build /p:UseSharedCompilation=false /t:rebuild'
+  - codeql database create java-database --language=java --command='gradle clean test'
+  - codeql database create java-database --language=java --command='mvn clean install'
+  - codeql database create java-database --language=java --command='ant -f build.xml'
+  - codeql database create new-database --language=java --command='./scripts/build.sh'
 - 分析数据库
   - codeql database analyze java-db CWE-020.ql --format=csv --output=result.csv
 
@@ -210,11 +226,12 @@
   - https://www.anquanke.com/post/id/157583
 
 二、代码审计案例
-
 - https://www.anquanke.com/post/id/203674
 - https://www.jianshu.com/p/99942852a3aa
 - https://www.anquanke.com/post/id/202987
 - https://mp.weixin.qq.com/s/LmOFGAhqAKiO8VDQW4vvLg
+- https://github.com/hac425xxx/codeql-snippets
+- https://github.com/elManto/StaticAnalysisQueries
 
 ## 06-CodeQL参考资源
 
