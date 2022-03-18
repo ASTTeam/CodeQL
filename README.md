@@ -2,16 +2,16 @@
 
 本项目收集整理CodeQL相关内容，包括CodeQL的设计原理实现方法或使用CodeQL进行的漏洞挖掘案例等。CodeQL基于语义的代码分析思想在SAST领域将会是一把利剑，CodeQL是下一代代码审计工具。可以通过CodeQL利用已知的漏洞信息来挖掘类似的漏洞，就像处理数据一样寻找漏洞。作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2021年12月13日，最近的一次更新时间为2022年3月17日。
+本项目创建于2021年12月13日，最近的一次更新时间为2022年3月18日。
 
-- [01-CodeQL技术资源](https://github.com/ASTTeam/CodeQL#01-codeql%E6%8A%80%E6%9C%AF%E8%B5%84%E6%BA%90)
-- [02-CodeQL基础内容](https://github.com/ASTTeam/CodeQL#02-codeql%E5%9F%BA%E7%A1%80%E5%86%85%E5%AE%B9)
-- [03-CodeQL高级进阶](https://github.com/ASTTeam/CodeQL#03-codeql%E9%AB%98%E7%BA%A7%E8%BF%9B%E9%98%B6)
-- [04-CodeQL规则工具](https://github.com/ASTTeam/CodeQL#04-codeql%E8%A7%84%E5%88%99%E5%B7%A5%E5%85%B7)
-- [05-CodeQL使用案例](https://github.com/ASTTeam/CodeQL#05-codeql%E4%BD%BF%E7%94%A8%E6%A1%88%E4%BE%8B)
-- [06-CodeQL参考资源](https://github.com/ASTTeam/CodeQL#06-codeql%E5%8F%82%E8%80%83%E8%B5%84%E6%BA%90)
+- [01-CodeQL资源](https://github.com/ASTTeam/CodeQL#01-CodeQL%E8%B5%84%E6%BA%90)
+- [02-CodeQL基础](https://github.com/ASTTeam/CodeQL#02-codeql%E5%9F%BA%E7%A1%80)
+- [03-CodeQL语言](https://github.com/ASTTeam/CodeQL#03-CodeQL%E8%AF%AD%E8%A8%80)
+- [04-CodeQL进阶](https://github.com/ASTTeam/CodeQL#04-CodeQL%E8%BF%9B%E9%98%B6)
+- [05-CodeQL案例](https://github.com/ASTTeam/CodeQL#05-CodeQL%E6%A1%88%E4%BE%8B)
+- [06-CodeQL参考](https://github.com/ASTTeam/CodeQL#06-CodeQL%E5%8F%82%E8%80%83)
 
-## 01-CodeQL技术资源
+## 01-CodeQL资源
 
 一、官方资源
 - [ ] https://codeql.github.com/docs
@@ -51,18 +51,44 @@
 
 五、其他资源
 - 先知
-- [ ] https://xz.aliyun.com/search?keyword=Codeql
+- [x] https://xz.aliyun.com/search?keyword=Codeql
+- [ ] [CodeQL 提升篇](https://xz.aliyun.com/t/10852)@Ironf4
 - [ ] https://xz.aliyun.com/t/7789
+- [ ] https://xz.aliyun.com/t/10829
+- [ ] https://xz.aliyun.com/t/10756
+- [ ] https://xz.aliyun.com/t/10755
+- [ ] https://xz.aliyun.com/t/10707
+- [ ] https://xz.aliyun.com/t/10046
+- [ ] https://xz.aliyun.com/t/9275
+- [ ] https://xz.aliyun.com/t/7979
+- [ ] https://xz.aliyun.com/t/7657
 - 跳跳糖
+- [x] https://tttang.com/?keyword=codeql
 - [ ] https://tttang.com/archive/1322
 - [ ] https://tttang.com/archive/1353
 - [ ] https://tttang.com/archive/1415
+- [ ] https://tttang.com/archive/1378
+- [ ] https://tttang.com/archive/1314
 - 安全客
+- [x] https://www.anquanke.com/search?s=codeql
 - [ ] https://www.anquanke.com/post/id/266823
 - [ ] https://www.anquanke.com/post/id/157583
 - [ ] https://www.anquanke.com/post/id/212305
+- [ ] https://www.anquanke.com/post/id/193171
+- [ ] https://www.anquanke.com/post/id/266824
 - 知乎
+- [ ] https://www.zhihu.com/search?type=content&q=codeql
 - [ ] https://zhuanlan.zhihu.com/p/354275826
+- [ ] https://zhuanlan.zhihu.com/p/137569940
+- [ ] https://zhuanlan.zhihu.com/p/479431942
+- [ ] https://zhuanlan.zhihu.com/p/451369565
+- [ ] https://zhuanlan.zhihu.com/p/92769710
+- [ ] https://zhuanlan.zhihu.com/p/463665699
+- [ ] https://zhuanlan.zhihu.com/p/451364774
+- [ ] https://zhuanlan.zhihu.com/p/466504018
+- [ ] https://zhuanlan.zhihu.com/p/448538180
+- [ ] https://zhuanlan.zhihu.com/p/475499290
+- [ ] https://zhuanlan.zhihu.com/p/466932373
 - 微信
 - [ ] https://mp.weixin.qq.com/s/jVZ3Op8FYBmiFAV3p0li3w
 - [ ] https://mp.weixin.qq.com/s/KQso2nvWx737smunUHwXag
@@ -70,7 +96,13 @@
 - [ ] https://mp.weixin.qq.com/s/3mlRedFwPz31Rwe7VDBAuA
 - [ ] https://mp.weixin.qq.com/s/zSI157qJXYivSvyxHzXALQ
 - [ ] https://mp.weixin.qq.com/s/Rqo12z9mapwlj6wGHZ1zZA
+- [ ] https://mp.weixin.qq.com/s/DW0PJfRC0LtMOYx1CQPWpA
 - Freebuf
+- [x] https://search.freebuf.com/search/?search=codeql#article
+- [ ] https://www.freebuf.com/articles/web/283795.html
+- [ ] https://www.freebuf.com/articles/network/316551.html
+- [ ] https://www.freebuf.com/sectool/291916.html
+- [ ] https://wiki.freebuf.com/detail?wiki=106&post=319285
 - Githab
 - [ ] https://github.com/Semmle/SecurityQueries
 - [ ] https://github.com/artem-smotrakov/ql-fun
@@ -112,7 +144,7 @@
 - [ ] https://jorgectf.github.io/blog/post/practical-codeql-introduction
 - [ ] https://www.slideshare.net/shabgrd/semmle-codeql
 
-## 02-CodeQL基础内容
+## 02-CodeQL基础
 
  本章节介绍CodeQL的基础用法及设计思路实现原理等！
 
@@ -144,7 +176,27 @@
 - 分析数据库
   - codeql database analyze java-db CWE-020.ql --format=csv --output=result.csv
 
-## 03-CodeQL高级进阶
+## 03-CodeQL语言
+
+一、基础语法
+
+二、规则编写
+- Java
+- C#
+- Go
+
+三、官方规则
+
+四、优秀规则
+- [ ] [《My CodeQL queries collection》](https://github.com/cldrn/codeql-queries)@cldrn
+- [ ] https://github.com/cor0ps/codeql
+- [ ] https://github.com/GeekMasher/security-queries
+- [ ] https://github.com/Marcono1234/codeql-java-queries
+- [ ] https://github.com/imagemlt/myQLrules
+- [ ] https://github.com/advanced-security/codeql-queries
+- [ ] https://github.com/jenkins-infra/jenkins-codeql
+
+## 04-CodeQL进阶
 
 一、Java安全分析
 - https://codeql.github.com/codeql-query-help/java
@@ -180,28 +232,14 @@
 六、Ruby
 - https://github.com/agius/codeql_ruby
 
-## 04-CodeQL规则工具
-
-一、CodeQL规则
-- Java
-- C#
-- Go
-- [ ] [《My CodeQL queries collection》](https://github.com/cldrn/codeql-queries)@cldrn
-- [ ] https://github.com/cor0ps/codeql
-- [ ] https://github.com/GeekMasher/security-queries
-- [ ] https://github.com/Marcono1234/codeql-java-queries
-- [ ] https://github.com/imagemlt/myQLrules
-- [ ] https://github.com/advanced-security/codeql-queries
-- [ ] https://github.com/jenkins-infra/jenkins-codeql
-
-二、CodeQL工具
+七、CodeQL工具
 - [ ] https://github.com/ice-doom/codeql_compile
 - [x] https://github.com/hudangwei/codemillx
 - [ ] https://github.com/gagliardetto/codemill
 - [ ] https://github.com/pwntester/codeql.nvim
 - [ ] https://github.com/gagliardetto/codebox
 
-## 05-CodeQL使用案例
+## 05-CodeQL案例
 
 一、大型应用分析
 - 分析Shiro
@@ -211,6 +249,7 @@
   - https://www.buaq.net/go-98696.html
 - 分析Log4j
   - https://www.anquanke.com/post/id/255721
+  - https://www.freebuf.com/articles/web/318141.html
   - https://mp.weixin.qq.com/s/JYco8DysQNszMohH6zJEGw
 - 分析Dubbo
   - https://github.com/github/codeql-dubbo-workshop
@@ -219,6 +258,7 @@
 - 分析kylin
   - https://xz.aliyun.com/t/8240
 - 分析grafana
+  - https://xz.aliyun.com/t/10648
   - [用codeql分析grafana最新任意文件读取](https://github.com/safe6Sec/codeql-grafana)
 - 分析Hadoop
   - https://mp.weixin.qq.com/s/CyhWw4t8LdGhCpixacb6Xg
@@ -233,11 +273,13 @@
 - https://github.com/hac425xxx/codeql-snippets
 - https://github.com/elManto/StaticAnalysisQueries
 
-## 06-CodeQL参考资源
+## 06-CodeQL参考
 
 - https://github.com/ASTTeam/CodeQL
 - https://github.com/pwntester
+- [微信公众号：xsser的博客](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzA4NzA5OTYzNw==&scene=123#wechat_redirect)
+- [微信公众号：楼兰学习网络安全](https://mp.weixin.qq.com/s/7wJKMVyc36U-PciZGmjrcg)
 
-![](01-CodeQL技术资源/TEMP/wx.png)
+![](01-CodeQL资源/TEMP/wx.png)
 
 [![Stargazers over time](https://starchart.cc//ASTTeam/CodeQL.svg)](https://starchart.cc/ASTTeam/CodeQL)
