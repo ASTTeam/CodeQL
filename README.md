@@ -13,7 +13,10 @@
 
 ## 01-CodeQL资源
 
+本章节收集整理CodeQL的相关资源内容，文章内容质量参差不齐，建议深入学习官方资源！
+
 一、官方资源
+
 - [ ] https://codeql.github.com/docs
 - [ ] https://github.com/github/codeql
 - [ ] https://github.com/github/codeql-go
@@ -178,6 +181,8 @@
 
 ## 03-CodeQL语言
 
+本章节介绍QL语言的语法规则，包括优秀规则等内容。CoqeQL为王，规则为先！
+
 一、基础语法
 
 二、规则编写
@@ -197,6 +202,8 @@
 - [ ] https://github.com/jenkins-infra/jenkins-codeql
 
 ## 04-CodeQL进阶
+
+本章节是针对不同的开发语言进行CodeQL扫描的例子，本章节待整理。
 
 一、Java安全分析
 - https://codeql.github.com/codeql-query-help/java
@@ -240,6 +247,8 @@
 - [ ] https://github.com/gagliardetto/codebox
 
 ## 05-CodeQL案例
+
+本章节介绍CodeQL的具体使用案例，包括自己通过CodeQL挖掘的漏洞等内容。
 
 一、大型应用分析
 - 分析Shiro
