@@ -106,7 +106,7 @@
 - [ ] https://www.freebuf.com/articles/network/316551.html
 - [ ] https://www.freebuf.com/sectool/291916.html
 - [ ] https://wiki.freebuf.com/detail?wiki=106&post=319285
-- Githab
+- Github
 - [ ] https://github.com/Semmle/SecurityQueries
 - [ ] https://github.com/artem-smotrakov/ql-fun
 - [ ] https://github.com/s0/language-ql
