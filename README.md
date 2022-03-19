@@ -2,7 +2,7 @@
 
 本项目收集整理CodeQL相关内容，包括CodeQL的设计原理实现方法或使用CodeQL进行的漏洞挖掘案例等。CodeQL基于语义的代码分析思想在SAST领域将会是一把利剑，CodeQL是下一代代码审计工具。可以通过CodeQL利用已知的漏洞信息来挖掘类似的漏洞，就像处理数据一样寻找漏洞。作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2021年12月13日，最近的一次更新时间为2022年3月18日。
+本项目创建于2021年12月13日，最近的一次更新时间为2022年3月19日。
 
 - [01-CodeQL资源](https://github.com/ASTTeam/CodeQL#01-CodeQL%E8%B5%84%E6%BA%90)
 - [02-CodeQL基础](https://github.com/ASTTeam/CodeQL#02-codeql%E5%9F%BA%E7%A1%80)
@@ -289,6 +289,14 @@
 - [微信公众号：xsser的博客](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzA4NzA5OTYzNw==&scene=123#wechat_redirect)
 - [微信公众号：楼兰学习网络安全](https://mp.weixin.qq.com/s/7wJKMVyc36U-PciZGmjrcg)
 
+## Stargazers
+
+[![Stargazers @ASTTeam/CodeQL](https://reporoster.com/stars/ASTTeam/CodeQL)](https://github.com/ASTTeam/CodeQL/stargazers)
+
+## Forkers
+
+[![Forkers @ASTTeam/CodeQL](https://reporoster.com/forks/ASTTeam/CodeQL)](https://github.com/ASTTeam/CodeQL/network/members)
+
 ![](01-CodeQL资源/TEMP/wx.png)
 
-[![Stargazers over time](https://starchart.cc//ASTTeam/CodeQL.svg)](https://starchart.cc/ASTTeam/CodeQL)
+[![Stargazers over time](https://starchart.cc/ASTTeam/CodeQL.svg)](https://starchart.cc/ASTTeam/CodeQL)
