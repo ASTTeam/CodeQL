@@ -2,7 +2,7 @@
 
 本项目收集整理CodeQL相关内容，包括CodeQL的设计原理实现方法或使用CodeQL进行的漏洞挖掘案例等。CodeQL基于语义的代码分析思想在SAST领域将会是一把利剑，CodeQL是下一代代码审计工具。可以通过CodeQL利用已知的漏洞信息来挖掘类似的漏洞，就像处理数据一样寻找漏洞。作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2021年12月13日，最近的一次更新时间为2022年3月20日。
+本项目创建于2021年12月13日，最近的一次更新时间为2022年3月21日。
 
 - [01-CodeQL资源](https://github.com/ASTTeam/CodeQL#01-CodeQL%E8%B5%84%E6%BA%90)
 - [02-CodeQL基础](https://github.com/ASTTeam/CodeQL#02-codeql%E5%9F%BA%E7%A1%80)
@@ -16,13 +16,13 @@
 本章节收集整理CodeQL的相关资源内容，文章内容质量参差不齐，建议深入学习官方资源！
 
 一、官方资源
-
 - [ ] https://codeql.github.com/docs
 - [ ] https://github.com/github/codeql
 - [ ] https://github.com/github/codeql-go
 - [ ] https://github.com/github/codeql-cli-binaries
 - [ ] https://github.com/github/vscode-codeql-starter
 - [ ] https://github.com/github/codeql-learninglab-actions
+- [ ] https://github.com/github/securitylab/issues
 - [ ] https://github.com/github/securitylab
 - [ ] https://lgtm.com/help/lgtm/ql/learning-ql
 - [ ] https://lgtm.com
@@ -131,6 +131,13 @@
 - [ ] https://github.com/synacktiv/QLinspector
 - [ ] https://github.com/advanced-security/codeql-workshop-2021-learning-journey
 - Medium
+- [ ] [《The journey of CodeQL》 ](https://medium.com/@qazbnm456/the-journey-of-codeql-part-1-cc4c6f3c610a)@Boik Su
+- [ ] [《CodeQL thần chưởng》](https://testbnull.medium.com/codeql-th%E1%BA%A7n-ch%C6%B0%E1%BB%9Fng-part-1-544a2b0df9d7)@Jang
+- [ ] [Hunting for XSS with CodeQL](https://medium.com/codex/hunting-for-xss-with-codeql-57f70763b938)@Daniel Santos
+- [ ] [Detect dangerous RMI objects with CodeQL](https://medium.com/geekculture/detecting-dangerous-rmi-objects-with-codeql-33e03686921f)@Artem Smotrakov
+- [ ] [About the CodeQL for research](https://medium.com/@lalida_a/about-the-codeql-for-research-c0686053337a)@Lalida Aramrueng
+- [ ] [Detecting Jackson deserialization vulnerabilities with CodeQL](https://medium.com/geekculture/detecting-jackson-deserialization-vulnerabilities-with-codeql-8ec6353c5cc6)@Artem Smotrakov
+- [ ] [Using CodeQL to detect client-side vulnerabilities in web applications](https://medium.com/@theRaz0r/using-codeql-to-detect-client-side-vulnerabilities-in-web-applications-1f4e4c773433)@Arseny Reutov
 - 其他博客
 - [ ] https://bestwing.me/codeql.html
 - [ ] https://lfysec.top/2020/06/03/CodeQL%E7%AC%94%E8%AE%B0/
