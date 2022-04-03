@@ -2,7 +2,7 @@
 
 本项目收集整理CodeQL相关内容，包括CodeQL的设计原理实现方法或使用CodeQL进行的漏洞挖掘案例等。CodeQL基于语义的代码分析思想在SAST领域将会是一把利剑，CodeQL是下一代代码审计工具。可以通过CodeQL利用已知的漏洞信息来挖掘类似的漏洞，就像处理数据一样寻找漏洞。作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2021年12月13日，最近的一次更新时间为2022年4月1日。
+本项目创建于2021年12月13日，最近的一次更新时间为2022年4月3日。
 
 - [01-CodeQL资源](https://github.com/ASTTeam/CodeQL#01-CodeQL%E8%B5%84%E6%BA%90)
 - [02-CodeQL基础](https://github.com/ASTTeam/CodeQL#02-codeql%E5%9F%BA%E7%A1%80)
@@ -69,6 +69,8 @@
 - [ ] https://xz.aliyun.com/t/7657
 - 跳跳糖
 - [x] https://tttang.com/?keyword=codeql
+- [ ] https://tttang.com/archive/1511
+- [ ] https://tttang.com/archive/1512
 - [ ] https://tttang.com/archive/1322
 - [ ] https://tttang.com/archive/1353
 - [ ] https://tttang.com/archive/1415
@@ -158,6 +160,7 @@
 - [ ] https://www.slideshare.net/shabgrd/semmle-codeql
 - [ ] https://blog.szfszf.top/article/59
 - [ ] https://firebasky.github.io/2022/03/22/Codeql-excavate-Java-quadratic-deserialization
+- [ ] https://www.synacktiv.com/en/publications/finding-gadgets-like-its-2022.html
 
 ## 02-CodeQL基础
 
@@ -212,6 +215,7 @@
 - [ ] https://github.com/imagemlt/myQLrules
 - [ ] https://github.com/advanced-security/codeql-queries
 - [ ] https://github.com/jenkins-infra/jenkins-codeql
+- [ ] https://github.com/ice-doom/CodeQLRule
 
 ## 04-CodeQL进阶
 
