@@ -2,7 +2,7 @@
 
 ![CodeQL](https://socialify.git.ci/ASTTeam/CodeQL/image?description=1&font=Inter&forks=1&issues=1&name=1&owner=1&pattern=Floating%20Cogs&pulls=1&stargazers=1&theme=Light)
 
-本项目收集整理CodeQL相关内容，包括CodeQL的设计原理实现方法或使用CodeQL进行的漏洞挖掘案例等。可以通过CodeQL利用已知的漏洞信息来挖掘类似的漏洞，就像处理数据一样寻找漏洞。CodeQL基于语义的代码分析思想在SAST领域将会是一把利剑，更是下一代代码审计工具的发展方向。但CodeQL往往更适合开发人员对自己项目的漏洞自检。在某些环节处理上还存在较大问题，很有上升空间。作者：[0e0w](https://github.com/0e0w)
+本项目收集整理CodeQL相关内容，包括CodeQL的设计原理实现方法或使用CodeQL进行的漏洞挖掘案例等。可以通过CodeQL利用已知的漏洞信息来挖掘类似的漏洞，就像处理数据一样寻找漏洞。基于语义的代码分析思想在SAST领域将会是一把利剑，这种思想更是下一代代码审计工具的发展方向。但CodeQL往往更适合开发人员对自己项目的漏洞自检。在某些环节处理上还存在较大问题，很有上升空间。作者：[0e0w](https://github.com/0e0w)
 
 本项目创建于2021年12月13日，最近的一次更新时间为2022年4月22日。
 
