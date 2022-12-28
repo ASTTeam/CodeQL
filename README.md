@@ -4,7 +4,7 @@
 
 本项目收集CodeQL相关内容，包括CodeQL的设计原理实现方法或使用CodeQL进行的漏洞挖掘案例等。其优点在于可以利用已知的漏洞信息来挖掘类似的漏洞，就像处理数据一样寻找漏洞。基于语义的代码分析思想在SAST领域更将会是一把利剑，这种思想更是下一代代码审计工具的发展方向。但CodeQL往往更适合开发人员对自己项目的漏洞自检，在某些环节处理上还存在较大问题，技术瓶颈有待提高。作者：[0e0w](https://github.com/0e0w)
 
-本项目创建于2021年12月13日，最近的一次更新时间为2022年12月24日。
+本项目创建于2021年12月13日，最近的一次更新时间为2022年12月28日。
 
 - [01-CodeQL资源](https://github.com/ASTTeam/CodeQL#01-CodeQL%E8%B5%84%E6%BA%90)
 - [02-CodeQL基础](https://github.com/ASTTeam/CodeQL#02-codeql%E5%9F%BA%E7%A1%80)
@@ -26,8 +26,6 @@
 - [ ] https://github.com/github/codeql-learninglab-actions
 - [ ] https://github.com/github/securitylab/issues
 - [ ] https://github.com/github/securitylab
-- [ ] https://lgtm.com/help/lgtm/ql/learning-ql
-- [ ] https://lgtm.com
 
 二、优秀资源
 - [ ] [《深入理解CodeQL》](https://github.com/ASTTeam/CodeQL)@0e0w
@@ -110,6 +108,7 @@
 - [ ] https://mp.weixin.qq.com/s/zSI157qJXYivSvyxHzXALQ
 - [ ] https://mp.weixin.qq.com/s/Rqo12z9mapwlj6wGHZ1zZA
 - [ ] https://mp.weixin.qq.com/s/DW0PJfRC0LtMOYx1CQPWpA
+- [ ] https://mp.weixin.qq.com/s/mDWqyw5aRxBnW4Sewt9sLQ
 - Freebuf
 - [x] https://search.freebuf.com/search/?search=codeql#article
 - [ ] https://www.freebuf.com/articles/web/283795.html
@@ -268,6 +267,7 @@
 - https://github.com/agius/codeql_ruby
 
 七、CodeQL工具
+- [x] https://github.com/ZhuriLab/Yi
 - [ ] https://github.com/ice-doom/codeql_compile
 - [x] https://github.com/hudangwei/codemillx
 - [ ] https://github.com/gagliardetto/codemill
